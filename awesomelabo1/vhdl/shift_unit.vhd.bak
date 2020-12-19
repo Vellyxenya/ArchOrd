@@ -1,0 +1,56 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity shift_unit is
+    port(
+        a  : in  std_logic_vector(31 downto 0);
+        b  : in  std_logic_vector(4 downto 0);
+        op : in  std_logic_vector(2 downto 0);
+        r  : out std_logic_vector(31 downto 0)
+    );
+end shift_unit;
+
+architecture synth of shift_unit is
+	--signal zero : std_logic_vector(31 downto 0);
+	signal b_int : integer;
+begin
+
+b_int <= to_integer(unsigned(b));
+
+shift_rotate : process(op, a, b_int)
+	variable zero : std_logic_vector(31 downto 0);
+begin
+
+--rotate operations
+
+	--rol
+	if op = "000" then
+		r <= a((31 - b_int) downto 0) & a(31 downto (32 - b_int));
+
+	--ror
+	elsif op = "001" then
+		r <= a(b_int -1 downto 0) & a(31 downto b_int);
+
+--shift operations
+
+			--shift left logic
+	elsif	(op="010") then
+			zero :=(others => '0');
+			zero(31 downto b_int) := a(31 - b_int downto 0);
+			r<=zero;
+
+			--shift right logic
+	elsif (op="011") then
+			zero :=(others => '0');
+			zero(31-b_int downto 0) := a(31 downto b_int);
+			r<=zero;
+
+			--shift right arith
+	elsif (op= "111") then
+			r<= (b_int - 1 downto 0 => a(31)) & a(31 downto b_int);
+
+	end if;
+end process;
+
+end synth;

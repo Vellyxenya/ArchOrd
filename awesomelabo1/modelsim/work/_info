@@ -1,0 +1,368 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Template/modelsim
+Eadd_sub
+Z0 w1569435655
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 d/home/student/Desktop/ComArch/template/modelsim
+Z5 8/home/student/Desktop/ComArch/template/vhdl/add_sub.vhd
+Z6 F/home/student/Desktop/ComArch/template/vhdl/add_sub.vhd
+l0
+L5
+V207_zj^V^3XmVFBkYPT0^3
+!s100 Ho^oT``GLJUNf<W@=D9Un1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1569435932
+!i10b 1
+Z9 !s108 1569435932.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/vhdl/add_sub.vhd|
+Z11 !s107 /home/student/Desktop/ComArch/template/vhdl/add_sub.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Asynth
+R1
+R2
+R3
+DEx4 work 7 add_sub 0 22 207_zj^V^3XmVFBkYPT0^3
+l22
+L16
+VDAXfG4<9El^JNYeeUEfKn1
+!s100 K8Y_`NdjeWb?0a@k8_Kfl1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+Z14 w1476133812
+R2
+R3
+R4
+Z15 8/home/student/Desktop/ComArch/template/vhdl/ALU.vhd
+Z16 F/home/student/Desktop/ComArch/template/vhdl/ALU.vhd
+l0
+L24
+VLIV0?b]kCZ40<iPbTC=4:2
+!s100 O`l`Xc5c_V9`dzon<W_fQ2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/vhdl/ALU.vhd|
+Z18 !s107 /home/student/Desktop/ComArch/template/vhdl/ALU.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R2
+R3
+Z19 DEx4 work 3 alu 0 22 LIV0?b]kCZ40<iPbTC=4:2
+l91
+L34
+Vn7Jhlm<g3=Igo4gAY0?Z=3
+!s100 ao^@A8=RSg[FW?jY:[EXI0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ecomparator
+Z20 w1569349091
+R2
+R3
+R4
+Z21 8/home/student/Desktop/ComArch/template/vhdl/comparator.vhd
+Z22 F/home/student/Desktop/ComArch/template/vhdl/comparator.vhd
+l0
+L4
+V3WXakLjKGIMC9fTC_zAJG3
+!s100 XTWoF>RX1>LcmLLBBo;N:0
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/vhdl/comparator.vhd|
+Z24 !s107 /home/student/Desktop/ComArch/template/vhdl/comparator.vhd|
+!i113 1
+R12
+R13
+Asynth
+R2
+R3
+DEx4 work 10 comparator 0 22 3WXakLjKGIMC9fTC_zAJG3
+l17
+L16
+V0QN587CX<ZZA52^:;DBmE0
+!s100 a@nWL3QQznG65hfo5D>BI2
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Elogic_unit
+Z25 w1569176714
+R2
+R3
+R4
+Z26 8/home/student/Desktop/ComArch/template/vhdl/logic_unit.vhd
+Z27 F/home/student/Desktop/ComArch/template/vhdl/logic_unit.vhd
+l0
+L5
+VJVzOmAB1b=d@k_j=G=Ugf3
+!s100 hc[8PZ1DYZS4cfK;>l6Q^3
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/vhdl/logic_unit.vhd|
+Z29 !s107 /home/student/Desktop/ComArch/template/vhdl/logic_unit.vhd|
+!i113 1
+R12
+R13
+Asynth
+R2
+R3
+DEx4 work 10 logic_unit 0 22 JVzOmAB1b=d@k_j=G=Ugf3
+l15
+L14
+VfWdCVge]lMA@VQ_dR^XKI3
+!s100 1zRC>WPEn0]D_]]KA_4a=0
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Emultiplexer
+Z30 w1569317776
+R2
+R3
+R4
+Z31 8/home/student/Desktop/ComArch/template/vhdl/multiplexer.vhd
+Z32 F/home/student/Desktop/ComArch/template/vhdl/multiplexer.vhd
+l0
+L4
+V4iH6`nZgBAHVia??bJk>G2
+!s100 UDM^5ga=kb9Z[=K^]bghV0
+R7
+32
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/vhdl/multiplexer.vhd|
+Z34 !s107 /home/student/Desktop/ComArch/template/vhdl/multiplexer.vhd|
+!i113 1
+R12
+R13
+Asynth
+R2
+R3
+DEx4 work 11 multiplexer 0 22 4iH6`nZgBAHVia??bJk>G2
+l16
+L15
+V0J5<LPZ`0C9O:<aZ=immY0
+!s100 >dLIS[M6AQDO>nT7d?>Cd3
+R7
+32
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13
+Eshift_unit
+Z35 w1569506092
+R1
+R2
+R3
+R4
+Z36 8/home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+Z37 F/home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+l0
+L5
+VoYz=ZP:Rg2U9Eb=ZGo>940
+!s100 C4@E7NN0:UB89P^MW405S0
+R7
+32
+Z38 !s110 1569506110
+!i10b 1
+Z39 !s108 1569506110.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd|
+Z41 !s107 /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd|
+!i113 1
+R12
+R13
+Asynth
+R1
+R2
+R3
+Z42 DEx4 work 10 shift_unit 0 22 oYz=ZP:Rg2U9Eb=ZGo>940
+l16
+L14
+VT[:?c7M0cQ@dofWHG=zP83
+!s100 fg_RFiS2]C9YRN7B<P8b]3
+R7
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Etb_add_sub
+Z43 w1569393381
+R2
+R3
+R4
+Z44 8/home/student/Desktop/ComArch/template/testbench/tb_add_sub.vhd
+Z45 F/home/student/Desktop/ComArch/template/testbench/tb_add_sub.vhd
+l0
+L4
+VQjTEaLcN@@gJhM3Pf`NEn3
+!s100 ]N?D@mCJQm@IB=<S9;fo?0
+R7
+32
+R8
+!i10b 1
+R9
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/testbench/tb_add_sub.vhd|
+Z47 !s107 /home/student/Desktop/ComArch/template/testbench/tb_add_sub.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R2
+R3
+DEx4 work 10 tb_add_sub 0 22 QjTEaLcN@@gJhM3Pf`NEn3
+l23
+L7
+VmfH`>6[L6P5bhE2ciRl3G3
+!s100 BlS`4N`;2RE5dR3LE@FF23
+R7
+32
+R8
+!i10b 1
+R9
+R46
+R47
+!i113 1
+R12
+R13
+Etb_alu
+Z48 w1569435718
+R1
+R2
+R3
+R4
+Z49 8/home/student/Desktop/ComArch/template/testbench/tb_ALU.vhd
+Z50 F/home/student/Desktop/ComArch/template/testbench/tb_ALU.vhd
+l0
+L5
+VPC4a2j0Z@h07SO>N@?M3X3
+!s100 h4gR^9UUSFUJBW2hl@TTO2
+R7
+32
+Z51 !s110 1569435931
+!i10b 1
+Z52 !s108 1569435931.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/testbench/tb_ALU.vhd|
+Z54 !s107 /home/student/Desktop/ComArch/template/testbench/tb_ALU.vhd|
+!i113 1
+R12
+R13
+Abench
+R19
+R1
+R2
+R3
+DEx4 work 6 tb_alu 0 22 PC4a2j0Z@h07SO>N@?M3X3
+l12
+L8
+VMb_zURb`_Y6S92dNS[Ki<1
+!s100 Id1;QgW^_>^>DzdE@Zen:3
+R7
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R12
+R13
+Etb_logic_unit
+Z55 w1569180843
+R2
+R3
+R4
+Z56 8/home/student/Desktop/ComArch/template/testbench/tb_logic_unit.vhd
+Z57 F/home/student/Desktop/ComArch/template/testbench/tb_logic_unit.vhd
+l0
+L4
+V56]=9U8E_0^hnOWE8_kak0
+!s100 I0S6Z^F^OTJKf4O?Ic>222
+R7
+32
+R51
+!i10b 1
+R52
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/template/testbench/tb_logic_unit.vhd|
+Z59 !s107 /home/student/Desktop/ComArch/template/testbench/tb_logic_unit.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R2
+R3
+DEx4 work 13 tb_logic_unit 0 22 56]=9U8E_0^hnOWE8_kak0
+l21
+L7
+VRW?HPPCT3?^L_Oo84P5?63
+!s100 [292V^bIU;TRnFH=K?FC>1
+R7
+32
+R51
+!i10b 1
+R52
+R58
+R59
+!i113 1
+R12
+R13

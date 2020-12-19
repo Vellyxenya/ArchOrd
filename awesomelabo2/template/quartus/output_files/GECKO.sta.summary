@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -12.228
+TNS   : -1400.371
+
+Type  : Slow 1200mV 85C Model Setup 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : -10.164
+TNS   : -158.073
+
+Type  : Slow 1200mV 85C Model Setup 'controller:inst|state.S2'
+Slack : -8.711
+TNS   : -318.605
+
+Type  : Slow 1200mV 85C Model Hold 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : -1.481
+TNS   : -5.716
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : -0.603
+TNS   : -0.603
+
+Type  : Slow 1200mV 85C Model Hold 'controller:inst|state.S2'
+Slack : 0.746
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.201
+TNS   : -257.985
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'controller:inst|state.S2'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -11.524
+TNS   : -1276.756
+
+Type  : Slow 1200mV 0C Model Setup 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : -9.632
+TNS   : -152.460
+
+Type  : Slow 1200mV 0C Model Setup 'controller:inst|state.S2'
+Slack : -8.235
+TNS   : -303.568
+
+Type  : Slow 1200mV 0C Model Hold 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : -1.416
+TNS   : -5.461
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : -0.542
+TNS   : -0.542
+
+Type  : Slow 1200mV 0C Model Hold 'controller:inst|state.S2'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.201
+TNS   : -258.320
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : -0.035
+TNS   : -0.212
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'controller:inst|state.S2'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -4.470
+TNS   : -556.473
+
+Type  : Fast 1200mV 0C Model Setup 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : -4.016
+TNS   : -58.328
+
+Type  : Fast 1200mV 0C Model Setup 'controller:inst|state.S2'
+Slack : -3.459
+TNS   : -121.243
+
+Type  : Fast 1200mV 0C Model Hold 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : -0.683
+TNS   : -1.107
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : -0.486
+TNS   : -0.724
+
+Type  : Fast 1200mV 0C Model Hold 'controller:inst|state.S2'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -163.360
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LEDs:LEDs_0|LEDs_reg[0]'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'controller:inst|state.S2'
+Slack : 0.305
+TNS   : 0.000
+
+------------------------------------------------------------

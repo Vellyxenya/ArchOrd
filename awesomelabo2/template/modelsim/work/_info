@@ -1,0 +1,624 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera_lite/16.0
+Econtroller
+Z0 w1570268820
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 d/home/student/Desktop/ComArch/Labo2/template/modelsim
+Z5 8/home/student/Desktop/ComArch/Labo2/template/vhdl/Controller.vhd
+Z6 F/home/student/Desktop/ComArch/Labo2/template/vhdl/Controller.vhd
+l0
+L5
+VQNRdUR5N=bM4Yh<KB[Wah1
+!s100 EgmZX?@Hlj_:FT@1zk_WE3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1570268821
+!i10b 1
+Z9 !s108 1570268821.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/Controller.vhd|
+Z11 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/Controller.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Asynth
+R1
+R2
+R3
+DEx4 work 10 controller 0 22 QNRdUR5N=bM4Yh<KB[Wah1
+l26
+L17
+VfN:03WAiA6ZR`=U`P5g`o1
+!s100 N3c`J9JKzaVNInc;H_k3M3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edecoder
+Z14 w1570258078
+R1
+R2
+R3
+R4
+Z15 8/home/student/Desktop/ComArch/Labo2/template/vhdl/decoder.vhd
+Z16 F/home/student/Desktop/ComArch/Labo2/template/vhdl/decoder.vhd
+l0
+L5
+VU?AT>Z]mM@<^]6F2zNAK73
+!s100 E70XToNOKdM31o2OfPCQK3
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/decoder.vhd|
+Z18 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/decoder.vhd|
+!i113 1
+R12
+R13
+Asynth
+R1
+R2
+R3
+DEx4 work 7 decoder 0 22 U?AT>Z]mM@<^]6F2zNAK73
+l20
+L14
+V388YWGSSS5@>f4Z:K0hb;3
+!s100 6NSO?O^VBbAj:f0=`fgUa0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Efpga4u_with_controller
+R14
+R2
+R3
+R4
+Z19 8/home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_with_controller.vhd
+Z20 F/home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_with_controller.vhd
+l0
+L24
+V=:f=j`>OO=61_Q:WX;AeN1
+!s100 `1RbW94><6J]8CK?H<fzS3
+R7
+32
+Z21 !s110 1570268822
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_with_controller.vhd|
+Z23 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_with_controller.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R2
+R3
+Z24 DEx4 work 22 fpga4u_with_controller 0 22 =:f=j`>OO=61_Q:WX;AeN1
+l97
+L33
+V<iXS`zZaco0^BPS_`^KnA0
+!s100 RcJMHfGX2QE:aLibWNebS2
+R7
+32
+R21
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Efpga4u_without_controller
+R14
+R2
+R3
+R4
+Z25 8/home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_without_controller.vhd
+Z26 F/home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_without_controller.vhd
+l0
+L24
+VFCoiMT1ozEjHKS<L095c@1
+!s100 69dai>]IQUYlKDS^l9;He1
+R7
+32
+R21
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_without_controller.vhd|
+Z28 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/FPGA4U_without_controller.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R2
+R3
+Z29 DEx4 work 25 fpga4u_without_controller 0 22 FCoiMT1ozEjHKS<L095c@1
+l86
+L38
+V3eS^oHjd]:IN0nhaT]z9[0
+!s100 29N9S8[5?VkolAz4YIf:;2
+R7
+32
+R21
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Eleds
+R14
+R1
+R2
+R3
+R4
+Z30 8/home/student/Desktop/ComArch/Labo2/template/vhdl/LEDs.vhd
+Z31 F/home/student/Desktop/ComArch/Labo2/template/vhdl/LEDs.vhd
+l0
+L5
+V82^IRfHNag^>;Yc>Z[nm>3
+!s100 LBhnQz<diU;5h1EbFfFEW1
+R7
+32
+R21
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/LEDs.vhd|
+Z33 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/LEDs.vhd|
+!i113 1
+R12
+R13
+Asynth
+R1
+R2
+R3
+DEx4 work 4 leds 0 22 82^IRfHNag^>;Yc>Z[nm>3
+l34
+L22
+Vj;cD^kSPz:JHjlD@L]j;81
+!s100 ^Eb^?kG1CKeS`DJCfdSl82
+R7
+32
+R21
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Ppack
+Z34 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R14
+R4
+Z36 8/home/student/Desktop/ComArch/Labo2/template/vhdl/rgb_led96.vhd
+Z37 F/home/student/Desktop/ComArch/Labo2/template/vhdl/rgb_led96.vhd
+l0
+L12
+VSgkf7C>zV<_V6E^@jUKD^3
+!s100 FB]U9M?hE8E5iehJ9[AWh3
+R7
+32
+b1
+R21
+!i10b 1
+R9
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/rgb_led96.vhd|
+Z39 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/rgb_led96.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z40 DPx4 work 4 pack 0 22 Sgkf7C>zV<_V6E^@jUKD^3
+R34
+R35
+R2
+R3
+l0
+L17
+VQ[i6CQaWYOi37nk]<RCBH3
+!s100 8]CiCz8GM]b_8`cfK=T:`2
+R7
+32
+R21
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13
+Eram
+Z41 w1570259157
+R1
+R2
+R3
+R4
+Z42 8/home/student/Desktop/ComArch/Labo2/template/vhdl/RAM.vhd
+Z43 F/home/student/Desktop/ComArch/Labo2/template/vhdl/RAM.vhd
+l0
+L5
+VJiWAmLGUWmdVPB8L2QZ[D3
+!s100 9O>00CFElD4PLMkihiTWm3
+R7
+32
+R21
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/RAM.vhd|
+Z45 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/RAM.vhd|
+!i113 1
+R12
+R13
+Asynth
+R1
+R2
+R3
+DEx4 work 3 ram 0 22 JiWAmLGUWmdVPB8L2QZ[D3
+l24
+L16
+Vbf:Kjzg_1XPfllo3XRK7j1
+!s100 T5XgFLK?kJHBOhcHZKOFn2
+R7
+32
+R21
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13
+Eregister_file
+R14
+R1
+R2
+R3
+R4
+Z46 8/home/student/Desktop/ComArch/Labo2/template/vhdl/register_file.vhd
+Z47 F/home/student/Desktop/ComArch/Labo2/template/vhdl/register_file.vhd
+l0
+L5
+Vo>gU`dz=S2O3?NgM4TGHU0
+!s100 XDjHhd>`EE`[HdP9eZ`z11
+R7
+32
+R21
+!i10b 1
+R9
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/register_file.vhd|
+Z49 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/register_file.vhd|
+!i113 1
+R12
+R13
+Asynth
+R1
+R2
+R3
+DEx4 work 13 register_file 0 22 o>gU`dz=S2O3?NgM4TGHU0
+l24
+L19
+V]Qjf^EQ5=aZ@Om[W1nzKA1
+!s100 E]nD4`GS]>leRUgKezzi`3
+R7
+32
+R21
+!i10b 1
+R9
+R48
+R49
+!i113 1
+R12
+R13
+Ergb_led96
+R14
+R40
+R35
+R34
+R2
+R3
+R4
+R36
+R37
+l0
+L46
+VDn00^;b6BmV8c[7[]6<CU2
+!s100 X:YKB@hW0<LC:6C595LeJ0
+R7
+32
+R21
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13
+Aarch
+R40
+R35
+R34
+R2
+R3
+DEx4 work 9 rgb_led96 0 22 Dn00^;b6BmV8c[7[]6<CU2
+l144
+L80
+VVMLEXCQSI_@JdCBGa]SIz1
+!s100 g<aGZ1bIK0AWZCQOUK`ba3
+R7
+32
+R21
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13
+Erom
+Z50 w1570259009
+R2
+R3
+R4
+Z51 8/home/student/Desktop/ComArch/Labo2/template/vhdl/ROM.vhd
+Z52 F/home/student/Desktop/ComArch/Labo2/template/vhdl/ROM.vhd
+l0
+L4
+VLD>LKJh0<<KfR_G::f?6B1
+!s100 LzhnA0@bLeKPHkcXf<L3g3
+R7
+32
+R21
+!i10b 1
+Z53 !s108 1570268822.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/ROM.vhd|
+Z55 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/ROM.vhd|
+!i113 1
+R12
+R13
+Asynth
+R2
+R3
+DEx4 work 3 rom 0 22 LD>LKJh0<<KfR_G::f?6B1
+l28
+L14
+VlTIKh;YlWAgjZQUk25`^n1
+!s100 3c^68Snnm>hPHUKj^;0AY1
+R7
+32
+R21
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R12
+R13
+Erom_block
+R14
+R2
+R3
+R4
+Z56 8/home/student/Desktop/ComArch/Labo2/template/vhdl/ROM_Block.vhd
+Z57 F/home/student/Desktop/ComArch/Labo2/template/vhdl/ROM_Block.vhd
+l0
+L42
+VCf[gZ]hQBZigaT1P:e9O01
+!s100 Fb1^C3b1G3KcM]0dFoPHV2
+R7
+32
+R8
+!i10b 1
+R9
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/vhdl/ROM_Block.vhd|
+Z59 !s107 /home/student/Desktop/ComArch/Labo2/template/vhdl/ROM_Block.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+DEx4 work 9 rom_block 0 22 Cf[gZ]hQBZigaT1P:e9O01
+l82
+L52
+VZKBR7P0EaE;PJMf_Ho4411
+!s100 2O9W8o5<`cI7Pb0TBCEoL0
+R7
+32
+R8
+!i10b 1
+R9
+R58
+R59
+!i113 1
+R12
+R13
+Etb_controller
+R14
+R2
+R3
+R4
+Z60 8/home/student/Desktop/ComArch/Labo2/template/testbench/tb_controller.vhd
+Z61 F/home/student/Desktop/ComArch/Labo2/template/testbench/tb_controller.vhd
+l0
+L4
+ViJgDF5RR:zbcJ5A_GfFbF0
+!s100 28F?L_OHdPH3gH3B4nzCd1
+R7
+32
+R21
+!i10b 1
+R53
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/testbench/tb_controller.vhd|
+Z63 !s107 /home/student/Desktop/ComArch/Labo2/template/testbench/tb_controller.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R24
+R2
+R3
+DEx4 work 13 tb_controller 0 22 iJgDF5RR:zbcJ5A_GfFbF0
+l13
+L7
+VPWiaV45Yf6[PVmi`KT2@T0
+!s100 WiZQfKkS[Zco`@HUXT1io0
+R7
+32
+R21
+!i10b 1
+R53
+R62
+R63
+!i113 1
+R12
+R13
+Etb_decoder
+R14
+R1
+R2
+R3
+R4
+Z64 8/home/student/Desktop/ComArch/Labo2/template/testbench/tb_decoder.vhd
+Z65 F/home/student/Desktop/ComArch/Labo2/template/testbench/tb_decoder.vhd
+l0
+L5
+VOJe`n<^Y;>G?>ZESb?7;h0
+!s100 M_B<cInEX[::YQScn@P2U0
+R7
+32
+R21
+!i10b 1
+R53
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/testbench/tb_decoder.vhd|
+Z67 !s107 /home/student/Desktop/ComArch/Labo2/template/testbench/tb_decoder.vhd|
+!i113 1
+R12
+R13
+Abench
+R1
+R2
+R3
+Z68 DEx4 work 10 tb_decoder 0 22 OJe`n<^Y;>G?>ZESb?7;h0
+l25
+L8
+Z69 VH^6g2cY3F4;g_]=86hmc`0
+Z70 !s100 E9:X;kSHEc<`hzMo<JN6g1
+R7
+32
+R21
+!i10b 1
+R53
+R66
+R67
+!i113 1
+R12
+R13
+Etb_memories
+R14
+R1
+R2
+R3
+R4
+Z71 8/home/student/Desktop/ComArch/Labo2/template/testbench/tb_memories.vhd
+Z72 F/home/student/Desktop/ComArch/Labo2/template/testbench/tb_memories.vhd
+l0
+L5
+V_[B`<1i^G3X9j`zn<9dcS1
+!s100 >eaMjaQUiFi7T3R9cd3^`0
+R7
+32
+R21
+!i10b 1
+R53
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/testbench/tb_memories.vhd|
+Z74 !s107 /home/student/Desktop/ComArch/Labo2/template/testbench/tb_memories.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R29
+R1
+R2
+R3
+DEx4 work 11 tb_memories 0 22 _[B`<1i^G3X9j`zn<9dcS1
+l19
+L8
+VHU:`e0JJVh96^59cS[6]<1
+!s100 Qec@BZNh5SP611?l>lh_T3
+R7
+32
+R21
+!i10b 1
+R53
+R73
+R74
+!i113 1
+R12
+R13
+Etb_register_file
+R14
+R1
+R2
+R3
+R4
+Z75 8/home/student/Desktop/ComArch/Labo2/template/testbench/tb_register_file.vhd
+Z76 F/home/student/Desktop/ComArch/Labo2/template/testbench/tb_register_file.vhd
+l0
+L5
+V9dGOXn>gC30@lMD0]CZ;O3
+!s100 1`;gKjLez8z?IanM[D4a_3
+R7
+32
+R21
+!i10b 1
+R53
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/student/Desktop/ComArch/Labo2/template/testbench/tb_register_file.vhd|
+Z78 !s107 /home/student/Desktop/ComArch/Labo2/template/testbench/tb_register_file.vhd|
+!i113 1
+R12
+R13
+Abench
+R1
+R2
+R3
+DEx4 work 16 tb_register_file 0 22 9dGOXn>gC30@lMD0]CZ;O3
+l34
+L8
+VZfEiDH^2dfCfLP@aR@YnL1
+!s100 QEc8L;n^]96m6LXYfgXR51
+R7
+32
+R21
+!i10b 1
+R53
+R77
+R78
+!i113 1
+R12
+R13

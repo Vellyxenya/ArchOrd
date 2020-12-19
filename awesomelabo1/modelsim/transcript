@@ -1,0 +1,387 @@
+# Loading project alu
+# Compile of shift_unit.vhd failed with 18 errors.
+# Compile of shift_unit.vhd failed with 18 errors.
+# Compile of shift_unit.vhd failed with 18 errors.
+# Compile of shift_unit.vhd failed with 18 errors.
+# Compile of shift_unit.vhd was successful.
+vsim work.tb_alu
+# vsim work.tb_alu 
+# Start time: 14:59:37 on Sep 26,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu(bench)
+# Loading work.alu(bdf_type)
+# Loading work.add_sub(fast)
+# Loading work.comparator(fast)
+# Loading work.logic_unit(fast)
+# Loading work.multiplexer(fast)
+# Loading work.shift_unit(fast)
+add wave sim:/tb_alu/*
+run -all;
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior 49
+#    Time: 1003640 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior 50
+#    Time: 1024080 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 0 (-1 downto 0 (null array)).
+#    Time: 41 us  Iteration: 1  Process: /tb_alu/alu_0/b2v_shift_unit_0/shift_rotate File: /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+# Fatal error in Process shift_rotate at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd line 45
+# 
+# HDL call sequence:
+# Stopped at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd 45 Process shift_rotate
+# 
+# Compile of shift_unit.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior 50
+#    Time: 1024080 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 31 (31 downto 1). Right is 32 (31 downto 0).
+#    Time: 41 us  Iteration: 1  Process: /tb_alu/alu_0/b2v_shift_unit_0/shift_rotate File: /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+# Fatal error in Process shift_rotate at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd line 45
+# 
+# HDL call sequence:
+# Stopped at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd 45 Process shift_rotate
+# 
+# Compile of shift_unit.vhd failed with 5 errors.
+# Compile of shift_unit.vhd failed with 4 errors.
+# Compile of shift_unit.vhd failed with 3 errors.
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior 55
+#    Time: 1126480 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 33 (0 to 32).
+#    Time: 143400 ns  Iteration: 1  Process: /tb_alu/alu_0/b2v_shift_unit_0/shift_rotate File: /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+# Fatal error in Process shift_rotate at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd line 57
+# 
+# HDL call sequence:
+# Stopped at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd 57 Process shift_rotate
+# 
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior 55
+#    Time: 1126480 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior 55
+#    Time: 1126480 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Error: Incorrect Behavior 55
+#    Time: 1126480 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 33 (0 to 32).
+#    Time: 80 ns  Iteration: 1  Process: /tb_alu/alu_0/b2v_shift_unit_0/shift_rotate File: /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+# Fatal error in Process shift_rotate at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd line 28
+# 
+# HDL call sequence:
+# Stopped at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd 28 Process shift_rotate
+# 
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 33 (0 to 32).
+#    Time: 80 ns  Iteration: 1  Process: /tb_alu/alu_0/b2v_shift_unit_0/shift_rotate File: /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+# Fatal error in Process shift_rotate at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd line 28
+# 
+# HDL call sequence:
+# Stopped at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd 28 Process shift_rotate
+# 
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 32 (31 downto 0). Right is 33 (0 to 32).
+#    Time: 80 ns  Iteration: 1  Process: /tb_alu/alu_0/b2v_shift_unit_0/shift_rotate File: /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd
+# Fatal error in Process shift_rotate at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd line 28
+# 
+# HDL call sequence:
+# Stopped at /home/student/Desktop/ComArch/template/vhdl/shift_unit.vhd 28 Process shift_rotate
+# 
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
+# Compile of shift_unit.vhd was successful.
+restart -f; run -all
+# Loading work.shift_unit(fast)
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/alu_0/b2v_shift_unit_0
+# ** Note: = Add/Sub test ===============================================================
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Comparator test ============================================================
+#    Time: 327720 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Logical unit test ==========================================================
+#    Time: 655400 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Shift unit test ============================================================
+#    Time: 983080 ns  Iteration: 0  Instance: /tb_alu
+# ** Note: = Test is Successful!!! ======================================================
+#    Time: 1310760 ns  Iteration: 0  Instance: /tb_alu
